@@ -9,21 +9,18 @@
   </head>
   <body>
     <!-- ---------------------------------------------------------------------------- -->
-    <div class="dropdown">
-      <div class="select">
-        <span class="selected">Chose Customer</span>
-        <div class="caret"></div>
+    <div class="dropDownList">
+      <!--Selected Menu-->
+      <div class="selectedButton">
+        <span>Select Customer</span>
+        <div class="arrow"></div>
       </div>
-      <ul class="listOfElements">
-        <li>Audi</li>
-        <li>BMW</li>
-        <li>Arrival</li>
-        <li>DAF</li>
-        <li>Volta</li>
-        <li>Opel</li>
-        <li>VW</li>
-        <li>Renault</li>
-      </ul>
+      <div class="listContent">
+        <div class="search">
+          <input type="text" placeholder="Search" />
+        </div>
+        <ul class="listOfElements"></ul>
+      </div>
     </div>
     <!-------------------------------------------------------------------------------->
     <script src="scripts/dropDownMenu.js"></script>
